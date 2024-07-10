@@ -1,0 +1,66 @@
+.form,
+.result {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 90%;
+}
+
+.result_heading {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.result_heading select {
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+
+
+.form_item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form_input {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+form button {
+    background-color: #0d686d;
+    border: none;
+    color: #ffffff;
+    min-width: 90%;
+    margin-top: 1rem;
+    border-radius: 16px;
+    padding: 0.4rem 1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    align-self: center;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .form {
+        width: 40%;
+    }
+
+    .result_heading select {
+        width: 40%;
+    }
+
+    .result_products {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+}

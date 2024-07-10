@@ -1,0 +1,48 @@
+.card {
+    background-color: #00474b;
+    margin: 1rem;
+    width: 90%;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.card h3 {
+    color: #ffffff;
+}
+
+.card p {
+    color: #27c1ac;
+}
+
+.button {
+    background-color: #0d686d;
+    border: none;
+    color: #ffffff;
+    min-width: 90%;
+    margin-top: 1rem;
+    border-radius: 16px;
+    padding: 0.4rem 1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    align-self: center;
+
+}
+
+.button:hover {
+    transition-delay: 0.1s;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #0d686d;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .card {
+        width: 30%;
+    }
+
+}
